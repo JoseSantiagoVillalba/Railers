@@ -1,0 +1,29 @@
+body{
+    background-image: url("/CV/Imagen/1920x1080_px_blue_Dark-1209539.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.col-md-3{
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+
+.col-md-4 {
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.Sobre-mi {
+    padding-bottom: 2rem;
+}
+.Experiencia{
+    padding-bottom: 3rem;
+}
+
+.col-md-7{
+    backdrop-filter: blur(20px);
+    color: white;
+}
