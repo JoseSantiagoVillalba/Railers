@@ -138,18 +138,18 @@
 
     <script>
     $(document).ready(function () {
-    // Agrega un evento input para cada campo del formulario
+    // Agrega un evento input para cada campo del formulario (uso jquery).
     $("#nombre, #email, #mensaje").on("input", function () {
-    // Obtiene los valores de los campos del formulario
+    // Obtener los valores de las id del formulario.
     let nombre = $("#nombre").val();
     let email = $("#email").val();
     let mensaje = $("#mensaje").val();
     
-    // Realiza la validación en tiempo real (puedes agregar más validaciones según tus necesidades)
+    // Realiza la validación.
     if (nombre === "" || email === "" || mensaje === "") {
         $("#message").html("<div class='alert alert-danger'>Por favor, completar todos los campos.</div>");
     } else {
-        // Si todos los campos están completos, verifica si el email es válido
+        // Verificacion de mail. 
         if (!isValidEmail(email)) {
             $("#message").html("<div class='alert alert-danger'>El correo electronico no es válido.</div>");
         } else {
